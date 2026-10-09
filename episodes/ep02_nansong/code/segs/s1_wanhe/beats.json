@@ -1,0 +1,86 @@
+{
+ "segment": "S1 李唐《万壑松风图》",
+ "file": "~/claude-projects/china-art/series/ep02_nansong/segs/seg_s1.mp4",
+ "frame0_global_s": 7.0,
+ "duration_s": 49.0,
+ "window_rule": "7–9 全貌静止（总装从绢底叠入）；49–56 全貌静止，相机与 7 s 时完全相同",
+ "picture_events_global_s": {
+  "full_view_static(hanging scroll on silk wall)": [
+   7.0,
+   17.0
+  ],
+  "label_on": [
+   8.5,
+   16.8
+  ],
+  "read_slow_push_to_main_peak(1.36x)": [
+   17.0,
+   25.8
+  ],
+  "dissolve1_clean(full->cliff)": [
+   26.3,
+   27.7
+  ],
+  "cliff_closeup_pale_underpainting(light ink only)": [
+   27.7,
+   33.3
+  ],
+  "cliff_slow_push": [
+   28.0,
+   41.6
+  ],
+  "HIGHLIGHT_axe_cut_strokes(dark ink lands facet by facet along brush axis, press on landing)": [
+   33.3,
+   40.7
+  ],
+  "dissolve2_clean(cliff->waterfall)": [
+   41.9,
+   42.9
+  ],
+  "HIGHLIGHT_waterfall_flowing + cloud_drift_over_pines": [
+   42.9,
+   46.2
+  ],
+  "dissolve3_clean(waterfall->near full)": [
+   46.2,
+   47.2
+  ],
+  "pull_back_to_full": [
+   46.6,
+   49.0
+  ],
+  "full_view_static_end(fog transition base)": [
+   49.0,
+   56.0
+  ]
+ },
+ "axe_landings_in_view_global_s": [
+  34.01,
+  34.34,
+  34.73,
+  35.23,
+  35.65,
+  36.02,
+  36.09,
+  36.47,
+  36.84,
+  37.23,
+  37.54,
+  37.97,
+  38.31,
+  38.68,
+  39.0,
+  39.51,
+  40.01,
+  40.51
+ ],
+ "subtitle_anchors_global_s": {
+  "一一二四年 北宋画院的李唐 画下了《万壑松风图》": 9.5,
+  "三年后 金兵攻破汴京 北宋灭亡": 16,
+  "李唐渡江南下 到了临安 重新进入画院": 21,
+  "他把一种笔法带到了南宋 用侧锋横扫": 31,
+  "石头像被斧头劈开一样 人称斧劈皴": 36,
+  "南宋的山水 从这里开始": 46
+ },
+ "v2_note": "2026-09-29 去掉段内三次云雾掠过，换景别改为干净叠化（1.4/1.0/1.0 s）；v1 备份 ../seg_s1_v1_fog.mp4"
+}

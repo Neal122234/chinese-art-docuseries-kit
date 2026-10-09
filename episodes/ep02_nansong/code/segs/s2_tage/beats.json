@@ -1,0 +1,201 @@
+{
+ "segment": "s2 马远《踏歌图》",
+ "file": "~/claude-projects/china-art/series/ep02_nansong/segs/seg_s2.mp4",
+ "frame0_global_s": 49.0,
+ "duration_s": 68.0,
+ "frames": 2040,
+ "note": "全局秒。字幕锚点照 plan/anchors.json 未改；以下为画面事件。",
+ "start_state": {
+  "full_view_static": [
+   49.0,
+   61.0
+  ],
+  "note": "49–61 全貌静止（立轴挂墙，无任何 fx），供 s1→s2 雾转场"
+ },
+ "label_on": [
+  55.8,
+  61.2
+ ],
+ "full_to_poem": {
+  "push_1.12x": [
+   61.0,
+   64.5
+  ],
+  "veil_crossfade": [
+   62.3,
+   64.0
+  ]
+ },
+ "highlight1_poem_writes_itself": {
+  "ghost_fade": [
+   64.8,
+   66.1
+  ],
+  "line1_宿雨清畿甸": [
+   66.35,
+   67.95
+  ],
+  "line2_朝陽麗帝城": [
+   68.05,
+   69.65
+  ],
+  "line3_豐年人樂業": [
+   70.45,
+   72.05
+  ],
+  "line4_壠上踏歌行": [
+   72.15,
+   73.75
+  ],
+  "inscription_賜王都提舉": [
+   73.95,
+   74.65
+  ],
+  "seal_small": 74.8,
+  "seal_御書之寶": 75.05,
+  "voice_read": {
+   "line1+2": [
+    66.93,
+    69.43
+   ],
+   "line3+4": [
+    70.91,
+    73.71
+   ]
+  }
+ },
+ "descent": {
+  "poem_to_palace_veil": [
+   77.0,
+   78.5
+  ],
+  "palace_mist_drifting": [
+   76.5,
+   82.5
+  ],
+  "palace_to_farmers_veil": [
+   81.0,
+   82.5
+  ]
+ },
+ "highlight2_tage_stomp": {
+  "stomps_global_s": [
+   {
+    "t": 82.74,
+    "strong": false
+   },
+   {
+    "t": 83.44,
+    "strong": true
+   },
+   {
+    "t": 84.09,
+    "strong": false
+   },
+   {
+    "t": 84.84,
+    "strong": true
+   },
+   {
+    "t": 85.55,
+    "strong": false
+   },
+   {
+    "t": 86.25,
+    "strong": true
+   },
+   {
+    "t": 86.95,
+    "strong": false
+   },
+   {
+    "t": 87.7,
+    "strong": true
+   },
+   {
+    "t": 88.51,
+    "strong": true
+   },
+   {
+    "t": 89.2,
+    "strong": true
+   },
+   {
+    "t": 89.89,
+    "strong": false
+   },
+   {
+    "t": 90.59,
+    "strong": true
+   },
+   {
+    "t": 91.24,
+    "strong": false
+   },
+   {
+    "t": 91.97,
+    "strong": true
+   },
+   {
+    "t": 92.59,
+    "strong": false
+   },
+   {
+    "t": 93.28,
+    "strong": true
+   },
+   {
+    "t": 93.99,
+    "strong": false
+   },
+   {
+    "t": 94.64,
+    "strong": true
+   }
+  ],
+  "note": "落脚时刻；强拍 = 配乐起音（bed_ep02_onsets.json），84.84–88.51 配乐停顿段按旁白约 0.7 s 一踏；抬起约 0.3 s，落下 0.14 s",
+  "farmer_closeup": [
+   80.5,
+   85.0
+  ],
+  "pullback_to_boulder_and_farmers": [
+   85.0,
+   92.5
+  ],
+  "boulder_axe_cut_in_frame": [
+   89.0,
+   95.0
+  ]
+ },
+ "willow_tuozhi": {
+  "tilt_up_to_willow": [
+   93.0,
+   98.5
+  ],
+  "hold": [
+   98.5,
+   98.6
+  ],
+  "pull_out": [
+   98.6,
+   101.6
+  ]
+ },
+ "back_to_full": {
+  "veil_crossfade": [
+   99.3,
+   101.3
+  ],
+  "zoom_out_to_full": [
+   99.0,
+   104.0
+  ]
+ },
+ "end_state": {
+  "full_view_static": [
+   104.0,
+   117.0
+  ],
+  "note": "104–117 全貌静止，与 49 s 帧 0 相同构图，供'留白'转场"
+ }
+}

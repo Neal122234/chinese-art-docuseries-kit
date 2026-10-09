@@ -1,0 +1,68 @@
+# ---- 媒体与大数据：一律不入库（素材、各段成片、遮罩、缓存都在 $CHINA_ART_ROOT 工程目录里）
+*.mp4
+*.mov
+*.m4v
+*.mkv
+*.webm
+*.avi
+*.wav
+*.ogg
+*.flac
+*.mp3
+*.m4a
+*.aac
+*.npy
+*.npz
+*.rgb
+*.raw
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.webp
+*.gif
+*.bmp
+*.psd
+# 字体（思源宋体 / Noto Sans SC 按 scripts/bootstrap.sh 的提示自行下载到 fonts/）
+*.otf
+*.ttf
+*.ttc
+*.woff
+*.woff2
+fonts/
+
+# ---- 环境、缓存、中间产物
+.venv/
+venv/
+__pycache__/
+*.pyc
+cache/
+work/
+out/
+review/
+peek/
+*.part
+*.part.*
+*.bak
+*.bak_*
+*.log
+*.heavy.lock
+.heavy.lock
+.DS_Store
+
+# ---- 凭据（提交前另跑 scripts/check_secrets.sh）
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*cookie*
+.netrc
+
+# ---- 例外
+# docs/ 下允许少量小示意图：只放 docs/img/*.jpg，单张 ≤ 300 KB（git 无法按大小过滤，提交前自查：find docs/img -size +300k）
+!docs/img/
+!docs/img/*.jpg
+# 各集 code/ 里的 assemble/work/、segs/*/work/ 只收了出片与自检脚本（.py/.sh），不是中间产物；媒体仍被上面的规则挡住
+!episodes/*/code/**/work/

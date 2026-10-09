@@ -1,0 +1,141 @@
+{
+ "segment": "S2 谿山行旅图",
+ "file": "~/claude-projects/china-art/series/segs/seg_s2.mp4",
+ "frame0_global_s": 19.0,
+ "duration_s": 87.0,
+ "subtitle_anchors_global_s": {
+  "北宋的画家 把一整座山 搬进了一幅绢里": 24.0,
+  "这是范宽的《谿山行旅图》": 29.0,
+  "山脚下 一队驮着货物的驴子正走出树林": 35.0,
+  "人在山前 不过一粒芝麻": 41.0,
+  "主峰顶天立地 扑面而来": 59.0,
+  "范宽用密密的墨点 一层层积出山石的坚硬": 64.0,
+  "后人叫它 雨点皴": 70.0,
+  "范宽说 与其学前人 不如学山水本身": 76.0,
+  "与其学山水 不如学自己的心": 81.0,
+  "他把名字藏在树叶间 直到一九五八年才被人发现": 85.0,
+  "同一个时代 另一位画家把目光投向了人间": 100.0
+ },
+ "picture_events_global_s": {
+  "full_view_static": [
+   19.0,
+   31.3
+  ],
+  "label_on": [
+   22.5,
+   31.3
+  ],
+  "veil_crossfade_full_to_foot(multi-layer wisps)": [
+   32.3,
+   36.2
+  ],
+  "foot_push_to_caravan": [
+   33.3,
+   44.0
+  ],
+  "stream_at_foot_flowing(~30px/s)": [
+   33.3,
+   48.0
+  ],
+  "caravan_walks_2.5_donkey_lengths(8 rigid parts, per-animal gait)": [
+   34.0,
+   50.0
+  ],
+  "rise_caravan_to_waterfall": [
+   44.5,
+   56.8
+  ],
+  "waterfall_flowing_clearly(~40px/s, upper right)": [
+   51.0,
+   54.5
+  ],
+  "volumetric_fog_enters_from_top(4 layers, parallax)": [
+   52.8,
+   56.6
+  ],
+  "fog_full_cover(structured; cut to peak at 57.05)": [
+   56.6,
+   57.6
+  ],
+  "fog_surface_sinks_summit_emerges_first(summit visible ~59.3)": [
+   57.0,
+   60.1
+  ],
+  "peak_haze_clears_to_full_ink": [
+   57.0,
+   64.2
+  ],
+  "peak_push_in(x1.32, waist fog flies past)": [
+   59.3,
+   65.8
+  ],
+  "dissolve_to_bare_silk_1to1": [
+   64.4,
+   65.9
+  ],
+  "rain_dots_push_to_1to1": [
+   64.8,
+   74.3
+  ],
+  "ink_light_wash_flows_top_down": [
+   65.05,
+   67.85
+  ],
+  "ink_mid_wash_along_slope": [
+   66.35,
+   68.85
+  ],
+  "ink_dark_rain_dots_drop": [
+   68.2,
+   71.05
+  ],
+  "dissolve_to_trees_behind_caravan": [
+   74.3,
+   75.8
+  ],
+  "push_to_signature": [
+   74.3,
+   84.8
+  ],
+  "signature_light_falls(surround dims)": [
+   82.8,
+   85.3
+  ],
+  "signature_lit_hold": [
+   85.3,
+   90.0
+  ],
+  "signature_light_off": [
+   90.0,
+   92.2
+  ],
+  "veil_crossfade_to_full": [
+   90.3,
+   94.4
+  ],
+  "pull_to_full": [
+   91.3,
+   96.3
+  ],
+  "full_view_static_for_fog_transition": [
+   96.3,
+   106.0
+  ]
+ },
+ "breathing_no_subtitle_global_s": [
+  48.0,
+  58.0
+ ],
+ "fog_texture": {
+  "file": "~/claude-projects/china-art/series/segs/fog_texture.png",
+  "source_rect_xywh": [
+   2800,
+   15200,
+   2400,
+   1100
+  ],
+  "note": "RGB = 原图未调色真实像素（S2 画面另有 grade gamma0.9 gain1.03）；A = 雾的低频浓淡(0..1)。可直接当引擎 fog 的 tex: {'src': 该png, 'rect': [0,0,2400,1100], 'ds': 2}；绢有接缝直线，满屏用时建议 GaussianBlur sigma≈3@ds2 抹掉。"
+ },
+ "version": "v2 (2026-09-28)：动静结合重做——驮队走 2.5 身长、瀑布/溪涧明显流动、多层体积雾上升穿云（峰顶先出云、烟霞锁腰、主峰扑面推近）、雨点皴按原作像素三批积墨、名款柔光落下；ss=1 分三段渲染无损拼接；v1 备份 xishan/seg_s2_v1.py、beats_v1.json、../../_v1/segs/seg_s2.mp4",
+ "subtitle_note": "字幕时间与 v1 相同（未动）"
+}
